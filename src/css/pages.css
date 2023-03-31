@@ -1,161 +1,52 @@
-body{
-    background-color: #0F1221;
-    max-width: 100dvw;
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-header{
-    z-index: 999;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 200px;
-    transition: 0.5s ease;
-}
-
-header .brand{
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-header .brand:hover{
-    color: #ff0000;
-}
-
-header .navigation{
-    position: relative;
-}
-
-header .navigation .navigation-items a{
-    position: relative;
-    color: #fff;
-    font-size: 1em;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 30px;
-    transition: 0.3s ease;
-}
-
-header .navigation .navigation-items a:before{
-    content: '';
-    position: absolute;
-    background: #fff;
-    width: 0;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s ease;
-}
-
-header .navigation .navigation-items a:hover:before{
-    width: 100%;
-    background: #ff0000;
-}
-
 .content{
-    margin-top: 15vh;
+    margin-top: 6vh;
 }
-
-.content .title{
-    left: 45%;
-    position: relative;
+.title {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
-
-.content .top1{
-    position: relative;
-    left: 43%;
-    height: 400px;
-    width: 250px;
-
+.cards {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
 }
-
-.top-title{
-    margin-top: 40px;
-    left: 50%;
-    position: relative;
-    color: red;
-}
-
-.top-subtitle{
-    color: white;
-    margin-top: 20px;
-    position: relative;
-    left: 10%;
-}
-
-.top-subtitle:hover{
-    color: red;
-}
-
-.content .top2{
-    top: -300px;
-    position: relative;
-    left: 20%;
-    height: 400px;
-    width: 250px;
-}
-.top2 .top-subtitle{
-    left: 22%;
-}
-
-.content .top3{
-    top: -600px;
-    position: relative;
-    left: 65%;
-    height: 400px;
-    width: 250px;
-}
-
-.top3 .top-subtitle{
-    left: 25%;
-}
-
-.lista{
-    margin-right: 50%;
-    left: 15vw;
-    position: relative;
-    font-size: 32px;
-}
-
-
-
-.lista li{
-    color: white;
-    list-style: none;
-    margin-bottom: 20px;
-    top: -300px;
-    position: relative;
-}
-
-#himym{
-    width: 350px;
-}
-
-#himym .top-title{
-    left: 40%;
-}
-#himym .top-subtitle{
-    left: 0%;
-}
-
-#gotham .top-subtitle{
+.cards .card {
+    border: none;
+    background: none;
+    margin-right: 20px;
     margin-left: 20px;
 }
+.card3 {
+    top: 50px;
+}
+.card1 {
+    bottom: 50px;
+}
 
-#friends .top-subtitle{
-    margin-left: 20px;
+.top-title {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-subtitle {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista {
+    margin-top: 50px;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    margin-left: 12rem;
 }
