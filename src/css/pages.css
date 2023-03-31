@@ -1,15 +1,21 @@
 body{
     background-color: #0F1221;
+    max-width: 100dvw;
 }
 
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 header{
     z-index: 999;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,20 +83,79 @@ header .navigation .navigation-items a:hover:before{
 
 }
 
-.top1-title{
+.top-title{
     margin-top: 40px;
     left: 50%;
     position: relative;
     color: red;
 }
 
-.top1-subtitle{
+.top-subtitle{
     color: white;
     margin-top: 20px;
     position: relative;
     left: 10%;
 }
 
+.top-subtitle:hover{
+    color: red;
+}
+
 .content .top2{
-    
+    top: -300px;
+    position: relative;
+    left: 20%;
+    height: 400px;
+    width: 250px;
+}
+.top2 .top-subtitle{
+    left: 22%;
+}
+
+.content .top3{
+    top: -600px;
+    position: relative;
+    left: 65%;
+    height: 400px;
+    width: 250px;
+}
+
+.top3 .top-subtitle{
+    left: 25%;
+}
+
+.lista{
+    margin-right: 50%;
+    left: 15vw;
+    position: relative;
+    font-size: 32px;
+}
+
+
+
+.lista li{
+    color: white;
+    list-style: none;
+    margin-bottom: 20px;
+    top: -300px;
+    position: relative;
+}
+
+#himym{
+    width: 350px;
+}
+
+#himym .top-title{
+    left: 40%;
+}
+#himym .top-subtitle{
+    left: 0%;
+}
+
+#gotham .top-subtitle{
+    margin-left: 20px;
+}
+
+#friends .top-subtitle{
+    margin-left: 20px;
 }

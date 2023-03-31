@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #0F1221;
+}
+
+header {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+}
+
+header .brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .brand:hover {
+    color: #ff0000;
+}
+
+header .navigation {
+    position: relative;
+}
+
+header .navigation .navigation-items a {
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover:before {
+    width: 100%;
+    background: #ff0000;
+}
+
+.content {
+    background-color: #101B27;
+    width: 50vw;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-label {
+    color: white;
+}
+
+.form-title {
+
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form label,
+form input {
+    margin: 10px 0;
+}
+
+form label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+
+form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  form input[type="submit"] {
+    background-color: #fff;
+    color: #1A1212;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+ .btn {
+    margin-top: 20px;
+ }
+
+ #tipo{
+    margin-right: 40px;
+ }
