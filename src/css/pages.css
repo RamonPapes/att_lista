@@ -1,6 +1,7 @@
-.content{
+.content {
     margin-top: 6vh;
 }
+
 .title {
     border: none;
     background: none;
@@ -9,6 +10,7 @@
     justify-content: center;
     color: white;
 }
+
 .cards {
     border: none;
     background: none;
@@ -17,15 +19,18 @@
     justify-content: center;
     margin-top: 4rem;
 }
+
 .cards .card {
     border: none;
     background: none;
     margin-right: 20px;
     margin-left: 20px;
 }
+
 .card3 {
     top: 50px;
 }
+
 .card1 {
     bottom: 50px;
 }
@@ -36,6 +41,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .top-subtitle {
     color: white;
     display: flex;
@@ -49,4 +55,15 @@
     color: white;
     font-size: 24px;
     margin-left: 12rem;
+}
+
+
+.topico {
+    margin-top: 50px;
+    margin-left: 200px;
+    color: white;
+}
+
+#lista1 li{
+    list-style-type: none;
 }
